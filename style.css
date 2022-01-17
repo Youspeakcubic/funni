@@ -1,0 +1,49 @@
+
+html{
+  background-color: pink;
+}
+button{
+  margin:5vh auto 5vh auto;
+  font-size: 2vh;
+  display:block;
+  color:pink;
+}
+h1{
+  font-size: 15vw;
+    font-family: 'The Nautigal', cursive;
+  color:white;
+}
+button:hover{
+  color:pink;
+}
+body{
+  text-align: center;
+}
+.sanImg{
+  width:50vw;
+  margin-top: 50px;
+}
+.sanImgAnim{
+  animation: mymove 5s infinite;
+  animation-iteration-count: 1;
+}
+.sanImgAnim2{
+  animation: mymove 10s infinite;
+  animation-iteration-count: 1;
+}
+.heart{
+  width:25px;
+}
+#bodyThing{
+  margin: 5% 0;
+  padding: 10%;
+}
+#ames{
+  text-align: center;
+  display:none;
+  margin-top: 20vh;
+}
+@keyframes mymove {
+  from {opacity: 0%}
+  to {opacity:100%}
+}
